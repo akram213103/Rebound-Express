@@ -1,0 +1,35 @@
+main
+{
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 1px;
+}
+
+input, select, file {
+  width: 100%;
+  padding: 1px;
+  margin-bottom: 1px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+}

@@ -1,0 +1,52 @@
+h1
+  {
+    text-align: left;
+  font-weight: 900;
+  background-color: #436988f8;
+  text-transform: uppercase;
+  border-bottom: 5px solid black;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+  
+h2 
+{
+  text-align: center;
+  font-size: 1.25em;
+  background-color: #e2af24f8; /* Background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px; /* Add some padding for spacing */
+}
+h3 
+{
+  text-align: center;
+  font-size: 1.25em;
+  background-color: transparent;
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px; /* Add some padding for spacing */
+}
+
+
+@media screen and (min-width: 400px) 
+{
+ nav ul li { 
+ flex: none; 
+ } 
+ nav ul {
+ justify-content: center;
+ }
+}
+@media screen and (min-width: 480px) 
+{ 
+ main img { 
+ float: left; 
+ margin: 0 1em 1em 0; 
+ } 
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

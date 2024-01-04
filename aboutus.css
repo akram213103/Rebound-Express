@@ -1,0 +1,45 @@
+ 
+  h2, h3
+  {
+    text-align: center;
+    font-size: 2em;
+  }
+  h4
+  {
+    text-align: center;
+    font-size: 1.25em;
+  }
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  tr {
+    background-color: #f2f2f2;
+  }
+
+  .best-option td {
+    color: green; /* Make the text in the third row green */
+  }
+
+  .return-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline for anchor within the button */
+    display: inline-block; /* Ensure the button behaves as a block element */
+}

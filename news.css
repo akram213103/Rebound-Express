@@ -1,0 +1,13 @@
+body
+{
+  background-image: url('../mediafiles/news.gif');
+    background-size: 25% auto; 
+    background-repeat: no-repeat;
+    background-position:  65% 50%;
+}
+
+h2
+{
+  text-align: left;
+  font-size: 2em;
+}
